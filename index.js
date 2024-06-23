@@ -1,4 +1,4 @@
-//unfinished
+/* //unfinished
 
 //using the inquirer package
 const inquirer = require("inquirer");
@@ -39,3 +39,8 @@ return inquirer
             message: "Enter a shape color",
         },
     ])
+ */
+
+const CLI = require("./lib/cli");
+
+new CLI().run();
